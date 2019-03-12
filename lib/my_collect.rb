@@ -7,7 +7,3 @@ def my_collect(array)
   end 
 end 
 
-my_collect(collection) do |x|
-  if x.split(" ").first
-  end
-end 
