@@ -7,7 +7,7 @@ def my_collect(array)
   end 
 end 
 
-my_collect(array) do |x|
+my_collect(collection) do |x|
   if x.split(" ").first
   end
 end 
