@@ -7,5 +7,5 @@ def my_collect(array)
   end 
 end 
 
-my_collect(array) do |x|
-  if array == 
+# my_collect(array) do |x|
+#   if array == 
