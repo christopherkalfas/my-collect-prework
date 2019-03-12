@@ -3,7 +3,7 @@ def my_collect(array)
   returned_info =[]
   if block_given?
     while i < array.length 
-    returned_info << yield array[i]
+    returned_info << yield(array[i])
       i =i + 1 
     end 
   end
