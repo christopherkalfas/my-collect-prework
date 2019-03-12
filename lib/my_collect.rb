@@ -2,9 +2,10 @@ def my_collect(array)
   i = 0 
   
   if block_given?
-  while i < array.length 
+    while i < array.length 
     yield array[i]
       i =i + 1 
-  end 
+    end 
+  end
 end 
 
