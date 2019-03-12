@@ -8,6 +8,6 @@ def my_collect(array)
 end 
 
 my_collect(array) do |x|
-  if array.split(" ").first
+  if x.split(" ").first
   end
 end 
